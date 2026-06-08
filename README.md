@@ -12,6 +12,11 @@ The private implementation is not public because it contains local machine confi
 - Privacy-first public documentation for a private automation workflow.
 - Migration planning as Google transitions consumer Gemini CLI workflows to Antigravity CLI.
 
+## Public Artifacts
+
+- [Sanitized workflow artifact](./docs/sanitized-workflow-artifact.md): recruiter-readable example of the durable context loop, validation gates, and handoff model.
+- [Fake context pack](./examples/fake-context-pack/): small public-safe example files showing the pattern without private paths, credentials, logs, or real project data.
+
 ## Why It Exists
 
 Long-running AI-assisted development can lose continuity when work is split across sessions, tools, machines, and models. The private workflow behind this documentation shell is designed to keep work recoverable and auditable by storing key operating context in files such as:
@@ -123,7 +128,6 @@ For private or sensitive work, validation also includes explicit scans for `.env
 
 This is a documentation shell for a private implementation. The next public-safe improvements are:
 
-- add a sanitized workflow diagram under `docs/`
-- add a fake example context pack
+- add an image-based sanitized workflow diagram under `docs/`
 - add a privacy-reviewed migration checklist for Antigravity CLI
 - add screenshots only if they do not expose local paths, credentials, private repos, or personal data
