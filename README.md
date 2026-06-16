@@ -17,6 +17,14 @@ The private implementation is not public because it contains local machine confi
 - [Sanitized workflow artifact](./docs/sanitized-workflow-artifact.md): recruiter-readable example of the durable context loop, validation gates, and handoff model.
 - [Fake context pack](./examples/fake-context-pack/): small public-safe example files showing the pattern without private paths, credentials, logs, or real project data.
 
+## Related Public Proof Shells
+
+This repository is the AI-assisted workflow and durable-context proof shell in Michael Panico's public GitHub surface. Private implementation repos, local automation state, machine configuration, credentials, workflow logs, and private career/financial materials are intentionally not linked publicly.
+
+- [Portfolio project page](https://www.michaelspanico.com/projects/gemini-codex-workflow)
+- [Portfolio Website Docs](https://github.com/mp2123/Portfolio-Website-Docs)
+- [Michael Panico GitHub profile](https://github.com/mp2123)
+
 ## Why It Exists
 
 Long-running AI-assisted development can lose continuity when work is split across sessions, tools, machines, and models. The private workflow behind this documentation shell is designed to keep work recoverable and auditable by storing key operating context in files such as:
