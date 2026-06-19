@@ -14,7 +14,7 @@ The private implementation is not public because it contains local machine confi
 
 ## Public Artifacts
 
-- [Sanitized workflow artifact](./docs/sanitized-workflow-artifact.md): recruiter-readable example of the durable context loop, validation gates, and handoff model.
+- [Sanitized workflow artifact](./docs/sanitized-workflow-artifact.md): professionally readable example of the durable context loop, validation gates, and handoff model.
 - [Fake context pack](./examples/fake-context-pack/): small public-safe example files showing the pattern without private paths, credentials, logs, or real project data.
 
 ## Related Public Proof Shells
@@ -122,7 +122,7 @@ A typical closeout checks:
 
 For private or sensitive work, validation also includes explicit scans for `.env`, keys, tokens, credentials, raw documents, private financial data, and machine-specific configuration.
 
-## Recruiter-Relevant Skills Demonstrated
+## Professional Skills Demonstrated
 
 - Workflow automation
 - Documentation systems
