@@ -4,7 +4,7 @@ This artifact shows the public-safe operating model behind the private Gemini/Co
 
 It uses fake project names, fake paths, and placeholder commands. It does not expose private machine configuration, credentials, raw logs, transcripts, employer material, financial data, or implementation scripts.
 
-## Recruiter Snapshot
+## Professional Snapshot
 
 The private workflow is designed to make AI-assisted development more auditable:
 
