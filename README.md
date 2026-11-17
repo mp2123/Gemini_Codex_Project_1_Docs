@@ -1,6 +1,6 @@
 # Gemini/Codex Durable Context Workflow
 
-Public documentation shell for a private AI-assisted workflow system that coordinates durable project context, agent handoffs, validation gates, and session closeout across Codex and Google agent tooling.
+Public documentation and an offline synthetic demo for a private AI-assisted workflow system that coordinates durable project context, agent handoffs, validation gates, and session closeout across Codex and Google agent tooling.
 
 The private implementation is not public because it contains local machine configuration, credentials surfaces, workflow logs, and private automation context. This repository documents the architecture, privacy boundaries, and sanitized operating model without exposing sensitive files or machine-specific setup.
 
@@ -13,6 +13,8 @@ The private implementation is not public because it contains local machine confi
 - Migration planning as Google transitions consumer Gemini CLI workflows to Antigravity CLI.
 
 ## Public Artifacts
+
+- [Runnable durable-context demo](./examples/durable-context-demo/): an offline, synthetic reconstruction with passing and deliberately blocked cases, behavioral tests, and an explicitly pending human-review receipt. No private implementation code or live agents are included.
 
 - [Sanitized workflow artifact](./docs/sanitized-workflow-artifact.md): professionally readable example of the durable context loop, validation gates, and handoff model.
 - [Fake context pack](./examples/fake-context-pack/): small public-safe example files showing the pattern without private paths, credentials, logs, or real project data.
@@ -134,7 +136,7 @@ For private or sensitive work, validation also includes explicit scans for `.env
 
 ## Status
 
-This is a documentation shell for a private implementation. The next public-safe improvements are:
+The implementation remains private. This repository includes documentation and a small tested synthetic demo, not the full system. Further public-safe improvements are:
 
 - add an image-based sanitized workflow diagram under `docs/`
 - add a privacy-reviewed migration checklist for Antigravity CLI
